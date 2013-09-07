@@ -4,7 +4,7 @@ var Filequeue = require('filequeue');
 var fq = new Filequeue();
 var app = express();
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/build'));
 
 app.get('/', function(req, res) {
 

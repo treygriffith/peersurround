@@ -1,0 +1,10 @@
+{
+	"name": "peersurround",
+	"dependencies": {
+		"component/dom": "*"
+	},
+	"scripts": [
+		"lib/app.js"
+	],
+	"main": "lib/app.js"
+}
