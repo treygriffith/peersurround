@@ -10,6 +10,8 @@ app.get('*', function(req, res) {
 
 	fq.readFile(__dirname + '/views/index.html', {encoding: 'utf8'}, function(err, str) {
 
+		res.contentType('html');
+
 		if(err) {
 			res.send(err);
 			return;

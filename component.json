@@ -1,7 +1,8 @@
 {
 	"name": "peersurround",
 	"dependencies": {
-		"component/dom": "*"
+		"component/dom": "*",
+		"segmentio/model-firebase": "*"
 	},
 	"scripts": [
 		"lib/app.js"
