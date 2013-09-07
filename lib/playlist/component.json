@@ -2,6 +2,18 @@
 	"name": "playlist",
 	"main": "playlist.js",
 	"dependencies": {
-		"segmentio/list": "*"
-	}
+		"segmentio/collection": "*",
+		"segmentio/list": "*",
+		"component/reactive": "*",
+		"component/domify": "*",
+		"component/dom": "*",
+		"components/domready": "*"
+	},
+	"scripts": [
+		"playlist.js",
+		"song.js"
+	],
+	"templates": [
+		"song.html"
+	]
 }

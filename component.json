@@ -8,6 +8,7 @@
 		"component/collection": "*"
 	},
 	"paths": [".", "lib"],
+	"local": ["playlist"],
 	"scripts": [
 		"lib/app.js"
 	],
