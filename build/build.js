@@ -1675,6 +1675,9 @@ attrs.forEach(function(name){
 
 
 });
+require.register("peersurround/lib/app.js", function(exports, require, module){
+
+});
 
 
 
@@ -1726,3 +1729,4 @@ require.alias("component-matches-selector/index.js", "yields-traverse/deps/match
 require.alias("component-query/index.js", "component-matches-selector/deps/query/index.js");
 
 require.alias("yields-traverse/index.js", "yields-traverse/index.js");
+require.alias("peersurround/lib/app.js", "peersurround/index.js");
