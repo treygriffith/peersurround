@@ -3,7 +3,8 @@
 	"dependencies": {
 		"component/dom": "*",
 		"component/router": "*",
-		"segmentio/model-firebase": "*"
+		"segmentio/model-firebase": "*",
+		"component/model": "*"
 	},
 	"scripts": [
 		"lib/app.js"
