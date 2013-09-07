@@ -6,7 +6,7 @@ var app = express();
 
 app.use(express.static(__dirname + '/build'));
 
-app.get('/', function(req, res) {
+app.get('*', function(req, res) {
 
 	fq.readFile(__dirname + '/views/index.html', {encoding: 'utf8'}, function(err, str) {
 
@@ -21,4 +21,4 @@ app.get('/', function(req, res) {
 
 app.listen(process.env.PORT || 3000);
 
-console.log("listening on "+(process.env.PORT || 3000))
+console.log("listening on "+(process.env.PORT || 3000));
