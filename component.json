@@ -2,6 +2,7 @@
 	"name": "peersurround",
 	"dependencies": {
 		"component/dom": "*",
+		"component/router": "*",
 		"segmentio/model-firebase": "*"
 	},
 	"scripts": [
