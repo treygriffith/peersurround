@@ -1,4 +1,7 @@
 {
 	"name": "playlist",
-	"main": "playlist.js"
+	"main": "playlist.js",
+	"dependencies": {
+		"segmentio/list": "*"
+	}
 }

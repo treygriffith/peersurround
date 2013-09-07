@@ -4,7 +4,8 @@
 		"component/dom": "*",
 		"component/router": "*",
 		"segmentio/model-firebase": "*",
-		"component/model": "*"
+		"component/model": "*",
+		"component/collection": "*"
 	},
 	"paths": [".", "lib"],
 	"scripts": [
