@@ -6,6 +6,7 @@
 		"segmentio/model-firebase": "*",
 		"component/model": "*"
 	},
+	"paths": [".", "lib"],
 	"scripts": [
 		"lib/app.js"
 	],
