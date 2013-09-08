@@ -1,0 +1,9 @@
+{
+	"name": "player",
+	"main": "player.js",
+	"dependencies": {
+	},
+	"scripts": [
+		"player.js"
+	]
+}
